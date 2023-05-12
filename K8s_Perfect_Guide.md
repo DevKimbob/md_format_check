@@ -1,7 +1,12 @@
 K8s Perfect Guide
 ===
 
-# 1.Docker
+**Table of Contents**
+* [1. Docker](#1-docker)
+
+
+
+# 1. Docker
 docker image를 생성할 때 주의할 점
 1. 1컨테이너당 1프로세스
 2. 변경불가 인프라 & 경량 이미지 (경량 기반이미지, apt 캐시파일 삭제, 레이어 줄이기, squash)
