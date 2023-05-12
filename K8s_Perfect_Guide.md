@@ -1,5 +1,5 @@
 <img src="Images/PIN.png" alt="PINLAB" height="100">
-<img src="Images/docker.png" alt="docker" height="100" padding-left="100px">
+<img src="Images/docker.png" alt="docker" height="100">
 
 K8s Perfect Guide
 ===
