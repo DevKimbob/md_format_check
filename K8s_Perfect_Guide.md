@@ -1,3 +1,5 @@
+<img src="Images/PIN.png" alt="PINLAB" width="200">
+
 K8s Perfect Guide
 ===
 
