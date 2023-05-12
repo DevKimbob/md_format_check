@@ -1,12 +1,12 @@
-<img src="Images/PIN.png" alt="PINLAB" height="100">
-<img src="Images/docker.png" alt="docker" height="100">
+<p float="left">
+    <img src="Images/PIN.png" alt="PINLAB" height="100">
+    <img src="Images/docker.png" alt="docker" height="100">
+</p>
 
-K8s Perfect Guide
-===
+# K8s Perfect Guide
 
 **Table of Contents**
-* ![1. Docker](https://github.com/DevKimbob/md_format_check/blob/master/K8s_Perfect_Guide.md#1-docker#1-docker)
-* ![Images/docker.png](https://github.com/DevKimbob/md_format_check/blob/master/K8s_Perfect_Guide.md#1-docker)
+* [1. Docker](#1-docker)
 
 
 
