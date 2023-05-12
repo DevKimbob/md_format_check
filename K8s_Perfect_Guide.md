@@ -7,10 +7,7 @@
 
 **Table of Contents**
 * [1. Docker](#1-docker)
-* [doc](#documentation)
 
-## Documentation
-aaestate
 
 # 1. Docker
 docker image를 생성할 때 주의할 점
@@ -19,5 +16,5 @@ docker image를 생성할 때 주의할 점
 3. 실행은 root 이외의 사용자 (Dockerfile : USER 검색)
 
 * RUN : build 시
-* ENTRYPOINT / CMD : container 실행 시, $ENTRYPOINT $CMD가 실행된다고 생각
+* ENTRYPOINT / CMD : container 실행 시, `$ENTRYPOINT $CMD`가 실행된다고 생각
 
