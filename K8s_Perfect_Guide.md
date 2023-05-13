@@ -7,6 +7,7 @@
 
 **Table of Contents**
 * [1. Docker](#1-docker)
+  * [Docker image를 생성할 떄 주의할 점](#docker-image를-생성할-때-주의할-점)
   * [Dockerfile 명령어](#dockerfile-명령어)
   * [Dockerfile -> Docker image build](#dockerfile---docker-image-build)
   * [MultiStage Build](#multistage-build-a--buildkit)
@@ -16,11 +17,10 @@
 
 
 # 1. Docker
-docker image를 생성할 때 주의할 점
+### Docker image를 생성할 때 주의할 점
 1. 1컨테이너당 1프로세스
 2. 변경불가 인프라 & 경량 이미지 (경량 기반이미지, apt 캐시파일 삭제, 레이어 줄이기, squash)
 3. 실행은 root 이외의 사용자 (Dockerfile : USER 검색)
-
 
 ### Dockerfile 명령어
 * LABEL : 메타데이터를 K:V 형식으로 지정
@@ -34,14 +34,12 @@ docker image를 생성할 때 주의할 점
   * ENTRYPOINT : 실행 명령어
   * CMD : 실행 명령어 인수
 
-
 ### Dockerfile -> Docker image build  
 ```bash
 docker image build -t <REPOSITORY>:<TAG> <dockerfile_dir>
   # build -f <dockerfile_name> 으로 명시 가능
 docker image ls
 ```
-
 
 ### MultiStage Build (+a : BuildKit)
 ```dockerfile
@@ -56,12 +54,10 @@ COPY --from=builder /go-app .
 ENTRYPOINT ["./go-app"]
 ```
 
-
 ### Using scratch images
 ```dockerfile
 FROM scratch ...
 ```
-
 
 ### Pushing to Docker Hub
 ```bash
@@ -74,7 +70,6 @@ docker image tag simple-image:0.1 DOCKERHUB_USER/sample-image:0.1
 docker image push DOCKERHUB_USER/sample-image:0.1
 docker logout
 ```
-
 
 ### Running Docker Container
 ```bash
