@@ -16,7 +16,7 @@ docker image를 생성할 때 주의할 점
 3. 실행은 root 이외의 사용자 (Dockerfile : USER 검색)
 
 
-## Dockerfile 명령어
+### Dockerfile 명령어
 * LABEL : 메타데이터를 K:V 형식으로 지정
 * USER / WORKDIR : 실행 계정 / 디렉터리(없을 시 생성)
 * EXPOSE : Listen할 포트 지정
@@ -29,7 +29,7 @@ docker image를 생성할 때 주의할 점
   * CMD : 실행 명령어 인수
 
 
-## Dockerfile -> Docker image build  
+### Dockerfile -> Docker image build  
 ```bash
 docker image build -t <REPOSITORY>:<TAG> <dockerfile_dir>
   # build -f <dockerfile_name> 으로 명시 가능
