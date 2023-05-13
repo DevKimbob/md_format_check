@@ -28,4 +28,6 @@ Dockerfile 명령어
   * CMD : 실행 명령어 인수
 
 Dockerfile -> Docker image build  
-```docker image build -t <REPOSITORY>:<TAG> <dockerfile_dir>```
+```
+docker image build -t <REPOSITORY>:<TAG> <dockerfile_dir>
+```
