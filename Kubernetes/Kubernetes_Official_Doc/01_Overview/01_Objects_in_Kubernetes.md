@@ -1,6 +1,6 @@
 <p float="left">
-    <img src="../../Images/PIN.png" alt="PINLAB" height="100">
-    <img src="../../Images/docker.png" alt="docker" height="100">
+    <img src="../image/PIN.png" alt="PINLAB" height="100">
+    <img src="../image/docker.png" alt="docker" height="100">
 </p>
 
 Objects in Kubernetes 
@@ -17,7 +17,7 @@ Objects in Kubernetes
 [https://kubernetes.io/docs/concepts/overview/](https://kubernetes.io/docs/concepts/overview/ "https://kubernetes.io/docs/concepts/overview/")
 
 ## Going back in time
-<img src="image/container_evolution.svg" alt="conatiner_evolution" width="500">
+<img src="../image/container_evolution.svg" alt="conatiner_evolution" width="500">
 
 > Traditional : physical servers\
 > Virtualized : VMs\
