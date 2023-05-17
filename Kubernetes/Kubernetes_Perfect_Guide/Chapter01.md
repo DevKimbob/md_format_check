@@ -1,19 +1,20 @@
 <p float="left">
-    <img src="Images/PIN.png" alt="PINLAB" height="100">
-    <img src="Images/docker.png" alt="docker" height="100">
+    <img src="../Images/PIN.png" alt="PINLAB" height="100">
+    <img src="../Images/docker.png" alt="docker" height="100">
 </p>
 
 # K8s Perfect Guide
 
 **Table of Contents**
-* [1. Docker](#1-docker)
-  * [Docker image를 생성할 떄 주의할 점](#docker-image를-생성할-때-주의할-점)
-  * [Dockerfile 명령어](#dockerfile-명령어)
-  * [Dockerfile -> Docker image build](#dockerfile---docker-image-build)
-  * [MultiStage Build](#multistage-build-a--buildkit)
-  * [Using scratch images](#using-scratch-images)
-  * [Pushing to Docker Hub](#pushing-to-docker-hub)
-  * [Running Docker Container](#running-docker-container)
+- [K8s Perfect Guide](#k8s-perfect-guide)
+- [1. Docker](#1-docker)
+    - [Docker image를 생성할 때 주의할 점](#docker-image를-생성할-때-주의할-점)
+    - [Dockerfile 명령어](#dockerfile-명령어)
+    - [Dockerfile -\> Docker image build](#dockerfile---docker-image-build)
+    - [MultiStage Build (+a : BuildKit)](#multistage-build-a--buildkit)
+    - [Using scratch images](#using-scratch-images)
+    - [Pushing to Docker Hub](#pushing-to-docker-hub)
+    - [Running Docker Container](#running-docker-container)
 
 
 # 1. Docker

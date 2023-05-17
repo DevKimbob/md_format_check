@@ -1,13 +1,14 @@
 <p float="left">
-    <img src="Images/PIN.png" alt="PINLAB" height="100">
-    <img src="Images/docker.png" alt="docker" height="100">
+    <img src="../Images/PIN.png" alt="PINLAB" height="100">
+    <img src="../Images/docker.png" alt="docker" height="100">
 </p>
 
 # K8s Perfect Guide
 
 **Table of Contents**
-* [2. Kubernetes](#2-kubernetes)
-  * [What you can do](#what-you-can-do)
+- [K8s Perfect Guide](#k8s-perfect-guide)
+- [2. Kubernetes](#2-kubernetes)
+    - [What you can do](#what-you-can-do)
 
 # 2. Kubernetes
 ### What you can do

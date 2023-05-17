@@ -1,34 +1,27 @@
 <p float="left">
-    <img src="Images/PIN.png" alt="PINLAB" height="100">
-    <img src="Images/docker.png" alt="docker" height="100">
+    <img src="../Images/PIN.png" alt="PINLAB" height="100">
+    <img src="../Images/docker.png" alt="docker" height="100">
 </p>
 
 # K8s Perfect Guide
 
-<!--
-* [N. name](#n-name)
-  * [Subname](#subname) 
-
-# N. name
-### Subname
--->
-
 **Table of Contents**
-* [3. Kubernetes Environments](#3-kubernetes-environments)
-  * [Three main types](#three-main-types)
-  * [Local Kubernetes](#local-kubernetes)
-    * [Minikube](#minikube)
-    * [Docker Desktop for Mac/Windows](#docker-desktop-for-macwindows)
-    * [Kind](#kind)
-  * [Kubernetes Build Tools](#kubetnetes-build-tools)
-    * [SLI/SLO](#slislo)
-    * [Kubeadm](#kubeadm)
-    * [Rancher](#rancher)
-  * [Public Cloud K8s](#public-cloud-k8s)
-    * [GKE](#gke)
-    * [AKS](#aks)
-    * [EKS](#eks)
-  * [Kubernetes Playground](#kubernetes-playground)
+- [K8s Perfect Guide](#k8s-perfect-guide)
+- [3. Kubernetes Environments](#3-kubernetes-environments)
+    - [Three main types](#three-main-types)
+  - [Local Kubernetes](#local-kubernetes)
+    - [Minikube](#minikube)
+    - [Docker Desktop for Mac/Windows](#docker-desktop-for-macwindows)
+    - [Kind](#kind)
+  - [Kubetnetes Build Tools](#kubetnetes-build-tools)
+    - [SLI/SLO](#slislo)
+    - [Kubeadm](#kubeadm)
+    - [Rancher](#rancher)
+  - [Public Cloud K8s](#public-cloud-k8s)
+    - [GKE](#gke)
+    - [AKS](#aks)
+    - [EKS](#eks)
+  - [Kubernetes Playground](#kubernetes-playground)
 
 # 3. Kubernetes Environments
 ### Three main types
