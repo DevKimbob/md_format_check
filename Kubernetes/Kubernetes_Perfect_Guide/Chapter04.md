@@ -7,7 +7,7 @@
 
 **Table of Contents**
 - [K8s Perfect Guide](#k8s-perfect-guide)
-- [4. ...](#4-)
+- [To be Continued...](#to-be-continued)
 
-# 4. ...
+# To be Continued...
 > Off to Kuberentes Official Documentation
